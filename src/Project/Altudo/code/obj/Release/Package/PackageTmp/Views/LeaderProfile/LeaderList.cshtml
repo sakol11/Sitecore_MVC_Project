@@ -1,0 +1,18 @@
+﻿@model IEnumerable<AltudoBatch1.Project.Altudo.Models.LeadershipDetails>
+
+@foreach (var lead in Model)
+{
+    <div style="float:left">
+        <h3>@lead.Name</h3>
+        <h5 style="font-style: italic">@lead.Designation</h5>
+        <h4>Age : @lead.Age</h4>
+        <h4> Place :  @lead.Place </h4>
+        <h5> @lead.WorkedRole</h5>
+
+    </div>
+    <div style="float:left">
+        <span>@lead.Image</span>
+    </div>
+    <br />
+    <br />
+}

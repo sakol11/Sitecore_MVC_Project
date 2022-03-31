@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>LeaderCommonLayout</title>
+    <style>
+        img {
+            width : 700px;
+            height : 500px;
+        }
+    </style>
+</head>
+<body>
+    <div> 
+        <h3 style="color:aqua">Welcome to Indian Leaders Blog</h3>
+        <div>
+            @Html.Sitecore().Placeholder("LeaderInfo")
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+﻿@model IEnumerable<AltudoBatch1.Feature.DetailPage.Models.ReviewComments>
+
+@foreach(var comment in Model)
+            {
+<div>
+    <h6>@comment.Name</h6>
+    <h6>@comment.EmailId</h6>
+    <h6>@comment.Rating</h6>
+    <h6>@comment.Comment</h6>
+    <h6>@comment.PostedDate</h6>
+</div>
+            }
+    

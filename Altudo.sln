@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{902CD82B-101E-4AA6-84C9-2A283D04DB5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{9A44AEA6-D927-4D47-9F93-9A151C6B0F6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{ABF39B17-9624-4EB1-B1DF-33D3E4723556}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Altudo", "Altudo", "{D0EB3F14-6B80-4B97-B367-13ABD3FB192E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Project.Altudo", "src\Project\Altudo\code\AltudoBatch1.Project.Altudo.csproj", "{4CD0EA7B-F835-434D-993B-709ECD159528}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DetailPage", "DetailPage", "{909B8668-861D-460C-8C2F-59A075A7BC12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Feature.DetailPage", "Website\AltudoBatch1.Feature.DetailPage.csproj", "{2FDEBFA8-ECDC-4329-AD4B-4B2DDFC574A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ListingPage", "ListingPage", "{6538B421-C656-4619-9BB2-C262C070C3A8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CategoryPage", "CategoryPage", "{39C19F84-8FE3-41B1-A8DA-238A386D3AB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Feature.CategoryPage", "Website1\AltudoBatch1.Feature.CategoryPage.csproj", "{2C0B9478-239F-4ADA-9CCC-55E0E4756B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Feature.ListingPage", "website2\AltudoBatch1.Feature.ListingPage.csproj", "{9749FFFB-1F1B-41C4-B730-D34ABA32C967}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{A713A136-3621-4ABC-9A94-3ECB9336404D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Feature.Search", "website3\AltudoBatch1.Feature.Search.csproj", "{8FB9FD44-7D7A-469A-A5FB-483FE7402861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{1B5A0F79-3C73-4CC5-A969-090722E071FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Feature.Common", "Website4\AltudoBatch1.Feature.Common.csproj", "{FD9ABE44-ECC3-461B-AAD5-66ACC242F47C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serialization", "Serialization", "{D901F5C8-1F34-47DC-850F-C9FFB5D24D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Foundation.Serialization", "websiteser\AltudoBatch1.Foundation.Serialization.csproj", "{B41BE4DA-615B-4141-B9B3-850BBD396D63}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Search", "Search", "{FEE5B12D-D0CD-44A9-90A1-4A1315E6919A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Foundation.Search", "src\SearchSite\SearchWebsite\AltudoBatch1.Foundation.Search.csproj", "{07AFAD0F-1BEB-48C7-A3FA-A04EACA6A5E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contacts", "Contacts", "{4EDAAADF-B520-409E-A3AE-B6A5651686EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AltudoBatch1.Feature.Contacts", "src\Contacts\ContactsWebsite\AltudoBatch1.Feature.Contacts.csproj", "{8B887AD1-D0F0-4DE8-A0E8-4136C5FEB96B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CD0EA7B-F835-434D-993B-709ECD159528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CD0EA7B-F835-434D-993B-709ECD159528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CD0EA7B-F835-434D-993B-709ECD159528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CD0EA7B-F835-434D-993B-709ECD159528}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FDEBFA8-ECDC-4329-AD4B-4B2DDFC574A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FDEBFA8-ECDC-4329-AD4B-4B2DDFC574A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FDEBFA8-ECDC-4329-AD4B-4B2DDFC574A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FDEBFA8-ECDC-4329-AD4B-4B2DDFC574A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C0B9478-239F-4ADA-9CCC-55E0E4756B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C0B9478-239F-4ADA-9CCC-55E0E4756B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C0B9478-239F-4ADA-9CCC-55E0E4756B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C0B9478-239F-4ADA-9CCC-55E0E4756B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9749FFFB-1F1B-41C4-B730-D34ABA32C967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9749FFFB-1F1B-41C4-B730-D34ABA32C967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9749FFFB-1F1B-41C4-B730-D34ABA32C967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9749FFFB-1F1B-41C4-B730-D34ABA32C967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FB9FD44-7D7A-469A-A5FB-483FE7402861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FB9FD44-7D7A-469A-A5FB-483FE7402861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FB9FD44-7D7A-469A-A5FB-483FE7402861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FB9FD44-7D7A-469A-A5FB-483FE7402861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9ABE44-ECC3-461B-AAD5-66ACC242F47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9ABE44-ECC3-461B-AAD5-66ACC242F47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9ABE44-ECC3-461B-AAD5-66ACC242F47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9ABE44-ECC3-461B-AAD5-66ACC242F47C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B41BE4DA-615B-4141-B9B3-850BBD396D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B41BE4DA-615B-4141-B9B3-850BBD396D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B41BE4DA-615B-4141-B9B3-850BBD396D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B41BE4DA-615B-4141-B9B3-850BBD396D63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AFAD0F-1BEB-48C7-A3FA-A04EACA6A5E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AFAD0F-1BEB-48C7-A3FA-A04EACA6A5E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AFAD0F-1BEB-48C7-A3FA-A04EACA6A5E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AFAD0F-1BEB-48C7-A3FA-A04EACA6A5E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B887AD1-D0F0-4DE8-A0E8-4136C5FEB96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B887AD1-D0F0-4DE8-A0E8-4136C5FEB96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B887AD1-D0F0-4DE8-A0E8-4136C5FEB96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B887AD1-D0F0-4DE8-A0E8-4136C5FEB96B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D0EB3F14-6B80-4B97-B367-13ABD3FB192E} = {902CD82B-101E-4AA6-84C9-2A283D04DB5B}
+		{4CD0EA7B-F835-434D-993B-709ECD159528} = {D0EB3F14-6B80-4B97-B367-13ABD3FB192E}
+		{909B8668-861D-460C-8C2F-59A075A7BC12} = {9A44AEA6-D927-4D47-9F93-9A151C6B0F6B}
+		{2FDEBFA8-ECDC-4329-AD4B-4B2DDFC574A4} = {909B8668-861D-460C-8C2F-59A075A7BC12}
+		{6538B421-C656-4619-9BB2-C262C070C3A8} = {9A44AEA6-D927-4D47-9F93-9A151C6B0F6B}
+		{39C19F84-8FE3-41B1-A8DA-238A386D3AB1} = {9A44AEA6-D927-4D47-9F93-9A151C6B0F6B}
+		{2C0B9478-239F-4ADA-9CCC-55E0E4756B29} = {39C19F84-8FE3-41B1-A8DA-238A386D3AB1}
+		{9749FFFB-1F1B-41C4-B730-D34ABA32C967} = {6538B421-C656-4619-9BB2-C262C070C3A8}
+		{A713A136-3621-4ABC-9A94-3ECB9336404D} = {9A44AEA6-D927-4D47-9F93-9A151C6B0F6B}
+		{8FB9FD44-7D7A-469A-A5FB-483FE7402861} = {A713A136-3621-4ABC-9A94-3ECB9336404D}
+		{1B5A0F79-3C73-4CC5-A969-090722E071FA} = {9A44AEA6-D927-4D47-9F93-9A151C6B0F6B}
+		{FD9ABE44-ECC3-461B-AAD5-66ACC242F47C} = {1B5A0F79-3C73-4CC5-A969-090722E071FA}
+		{D901F5C8-1F34-47DC-850F-C9FFB5D24D29} = {ABF39B17-9624-4EB1-B1DF-33D3E4723556}
+		{B41BE4DA-615B-4141-B9B3-850BBD396D63} = {D901F5C8-1F34-47DC-850F-C9FFB5D24D29}
+		{FEE5B12D-D0CD-44A9-90A1-4A1315E6919A} = {ABF39B17-9624-4EB1-B1DF-33D3E4723556}
+		{07AFAD0F-1BEB-48C7-A3FA-A04EACA6A5E2} = {FEE5B12D-D0CD-44A9-90A1-4A1315E6919A}
+		{4EDAAADF-B520-409E-A3AE-B6A5651686EF} = {9A44AEA6-D927-4D47-9F93-9A151C6B0F6B}
+		{8B887AD1-D0F0-4DE8-A0E8-4136C5FEB96B} = {4EDAAADF-B520-409E-A3AE-B6A5651686EF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45
+		SolutionGuid = {A5BEC161-BEE4-4623-B58D-CA8333DF799E}
+	EndGlobalSection
+EndGlobal

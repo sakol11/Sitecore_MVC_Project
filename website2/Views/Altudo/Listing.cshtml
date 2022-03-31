@@ -1,0 +1,12 @@
+﻿@model IEnumerable<AltudoBatch1.Feature.DetailPage.Models.DetailPages>
+
+@foreach(var card in Model)
+            {
+<div>
+    <h4>@card.Title</h4>
+    <h4>@card.Description</h4>
+    <h4>@card.CardImage</h4>
+    <a href="@card.CardUrl">Click here</a>
+</div>
+<br />
+            }

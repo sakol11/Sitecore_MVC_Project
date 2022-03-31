@@ -1,0 +1,24 @@
+﻿<div style="float:left">
+    <h3>@Html.Sitecore().Field("Name")</h3>
+    <h5 style="font-style: italic">@Html.Sitecore().Field("Designation")</h5>
+    <h4>Age : @Html.Sitecore().Field("Age") </h4>
+    <h4> Place :  @Html.Sitecore().Field("Place") </h4>
+    <br />
+    <h4> Best Known for :</h4>
+    <p> @Html.Sitecore().Field("KnownFor") </p>
+    <div>
+        <h4>Political History :</h4>
+
+        <h5> @Html.Sitecore().Field("WorkedRole") </h5>
+        <br />
+        <h4>Term :</h4> <h5>@Html.Sitecore().Field("Term") </h5>
+        <h4>Description :</h4>
+        <p> @Html.Sitecore().Field("Description") </p>
+
+    </div>
+</div>
+<div style="float:left">
+    @Html.Sitecore().Field("Image")
+    <br /> 
+    <p> @Html.Sitecore().Field("InfoText")</p>
+</div>

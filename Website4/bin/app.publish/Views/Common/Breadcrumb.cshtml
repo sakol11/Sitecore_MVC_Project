@@ -1,0 +1,5 @@
+﻿@model IEnumerable<AltudoBatch1.Feature.Common.Models.BreadcrumbNav>
+    @foreach(var nav in Model)
+            {
+                <a href="@nav.NavUrl">@nav.NavTitle</a>
+            }
